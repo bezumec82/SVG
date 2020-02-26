@@ -50,6 +50,12 @@ set( CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/out )
 #############
 ### Libraries
 #############
-include(  ${CMAKE_CURRENT_SOURCE_DIR}/Boost.cmake )
+include( ${CMAKE_CURRENT_SOURCE_DIR}/Boost.cmake )
+
+### LibXml2
+set( LIBXML2_INCLUDE_DIR "c:/Strawberry/c/include/libxml/" )
+set( LIBXML2_LIBRARY "c:/Strawberry/c/lib/libxml2.a" )
+find_package(LibXml2 REQUIRED)
+
 add_subdirectory( ${CMAKE_CURRENT_SOURCE_DIR}/svgpp/src/samples )
 add_subdirectory( ${CMAKE_CURRENT_SOURCE_DIR}/svgpp/src/demo/render )
