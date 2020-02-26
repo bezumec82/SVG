@@ -1,0 +1,35 @@
+[
+    {
+      "name": "Visual Studio Community 2017 Release - amd64",
+      "visualStudio": "ae827a92",
+      "visualStudioArchitecture": "amd64",
+      "preferredGenerator": {
+        "name": "Visual Studio 15 2017",
+        "platform": "x64"
+      }
+    },
+    {
+      "name": "Visual Studio Community 2017 Release - amd64_x86",
+      "visualStudio": "ae827a92",
+      "visualStudioArchitecture": "amd64_x86",
+      "preferredGenerator": {
+        "name": "Visual Studio 15 2017"
+      }
+    },
+    {
+      "name": "Visual Studio Community 2017 Release - x86",
+      "visualStudio": "ae827a92",
+      "visualStudioArchitecture": "x86",
+      "preferredGenerator": {
+        "name": "Visual Studio 15 2017"
+      }
+    },
+    {
+      "name": "Visual Studio Community 2017 Release - x86_amd64",
+      "visualStudio": "ae827a92",
+      "visualStudioArchitecture": "x86_amd64",
+      "preferredGenerator": {
+        "name": "Visual Studio 15 2017"
+      }
+    }
+  ]

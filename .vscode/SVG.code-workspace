@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "D:\\PROJECTS\\SVG"
+		}
+	],
+	"settings": {
+		"cmake.buildDirectory" : "${workspaceRoot}/build",
+		// "cmake.sourceDirectory" : "${workspaceRoot}",
+		"cmake.environment": {
+			// "path" : "C:\\Program Files\\mingw-w64\\x86_64-4.8.5-posix-sjlj-rt_v4-rev0\\mingw64\\bin;C:\\Boost;C:\\Boost\\lib;c:\\Boost\\include\\boost-1_56;c:\\Program Files\\CMake\\bin"
+		},
+		"files.associations": {
+			"tuple": "cpp",
+			"utility": "cpp"
+		}
+	},
+
+
+}
